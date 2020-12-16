@@ -7493,8 +7493,7 @@ input[data-provide="datepicker"]:focus {
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
-  -webkit-text-decoration: 2px #EF0000 line-through;
-  text-decoration: 2px #EF0000 line-through;
+  text-decoration: line-through;
 }
 
 .price .new-price {
@@ -7521,7 +7520,7 @@ input[data-provide="datepicker"]:focus {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: var(--mf-fiolet) url("../img/svg/arrow_slider.svg") center/14px no-repeat;
+  background: var(--mf-fiolet) url("../img/svg/arrow_slider.svg") center/10px no-repeat;
   position: absolute;
   top: 42%;
 }
@@ -7532,16 +7531,13 @@ input[data-provide="datepicker"]:focus {
 
 .slider .slick-arrow.slick-prev {
   left: -50px;
-  -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .slider .slick-arrow.slick-next {
   right: -50px;
-  -webkit-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  transform: rotate(-90deg);
 }
 
 .slider .slick-arrow.slick-disabled {
