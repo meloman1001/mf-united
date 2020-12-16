@@ -7493,7 +7493,8 @@ input[data-provide="datepicker"]:focus {
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
-  text-decoration: line-through;
+  -webkit-text-decoration: line-through red;
+  text-decoration: line-through red;
 }
 
 .price .new-price {
@@ -7520,7 +7521,7 @@ input[data-provide="datepicker"]:focus {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: var(--mf-fiolet) url("../img/svg/arrow_slider.svg") center/10px no-repeat;
+  background: var(--mf-fiolet) url("../img/svg/arrow_slider.png") center/10px no-repeat;
   position: absolute;
   top: 42%;
 }
